@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@color/colorPrimaryDark">
+
+    <EditText
+        android:id="@+id/report_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="192dp"
+        android:layout_margin="12dp"
+        android:background="@color/colorAccent"
+        android:gravity="start"
+        android:hint="Escribe tu reporte..."
+        android:padding="16dp"
+        android:textColor="@color/colorPrimary" />
+
+    <Button
+        android:id="@+id/send_report_btn"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="Enviar reporte"
+        android:textSize="16dp"
+        android:textAllCaps="false"
+        android:textColor="@color/colorAccent"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"/>
+
+</LinearLayout>

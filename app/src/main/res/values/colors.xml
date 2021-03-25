@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#006080</color>
+    <color name="colorPrimaryDark">#EBEBEB</color>
+    <color name="colorAccent">#FFFFFF</color>
+
+    <color name="transparent">#000000</color>
+
+    <!-- Slides Colors -->
+    <color name="background">#F0F0F0</color>
+    <color name="text_1">#AFAFAF</color>
+
+    <color name="timebarColor">#969696</color>
+
+    <!-- Slides Colors -->
+    <color name="colorSlide2">#348FAD</color>
+    <color name="colorSlide3">#487684</color>
+</resources>

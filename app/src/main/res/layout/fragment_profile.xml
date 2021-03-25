@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/colorAccent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        app:contentInsetLeft="0dp"
+        app:contentInsetStart="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:baselineAligned="false"
+            android:theme="@android:style/ThemeOverlay.Material.Dark"
+            tools:targetApi="lollipop">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:id="@+id/profile_settings_btn"
+                    android:layout_width="64dp"
+                    android:layout_height="match_parent"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:clickable="true"
+                    android:focusable="true"
+                    tools:ignore="UselessParent">
+
+                    <ImageView
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:src="@drawable/settings"
+                        android:contentDescription="@string/app_name"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginStart="16dp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/logo2"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginBottom="12dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/profile_save_btn"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:focusable="true">
+
+                <TextView
+                    android:id="@+id/profile_save_btn_txt"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/actualizar"
+                    android:textSize="16sp"
+                    android:gravity="end|center_vertical"
+                    android:textColor="@color/colorAccent"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginRight="16dp"
+                    android:contentDescription="@string/app_name"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <FrameLayout
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:contentDescription="@string/app_name"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:id="@+id/profile_picture"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/app_name"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:focusable="true"
+                android:clickable="true"/>
+
+            <ImageView
+                android:id="@+id/profile_picture_pencil"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:contentDescription="@string/app_name"
+                android:layout_gravity="bottom|end"
+                android:layout_margin="2dp"/>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/view_profile_info"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:orientation="vertical"
+        android:paddingTop="32dp"
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp">
+
+        <Button
+            android:id="@+id/user_name_btn"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:text="Nombre"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimary"
+            android:textAllCaps="false"
+            android:background="@drawable/ripple_effect"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/user_last_name_btn"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:text="Apellidos"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimary"
+            android:textAllCaps="false"
+            android:background="@drawable/ripple_effect"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/user_age_btn"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:text="Edad         &#9660;"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimary"
+            android:textAllCaps="false"
+            android:background="@drawable/ripple_effect"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/user_sex_btn"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:text="Sexo         &#9660;"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimary"
+            android:textAllCaps="false"
+            android:background="@drawable/ripple_effect"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/user_sport_btn"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:text="Deporte  &#9660;"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimary"
+            android:textAllCaps="false"
+            android:background="@drawable/ripple_effect"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/user_country_btn"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:text="Pais          &#9660;"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimary"
+            android:textAllCaps="false"
+            android:background="@drawable/ripple_effect"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/user_weight_btn"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:text="Peso        &#9660;"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimary"
+            android:textAllCaps="false"
+            android:background="@drawable/ripple_effect"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/user_height_btn"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:text="Altura     &#9660;"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimary"
+            android:textAllCaps="false"
+            android:background="@drawable/ripple_effect"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/input_profile_info"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:orientation="vertical"
+        android:paddingTop="32dp"
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp"
+        android:visibility="gone">
+
+        <EditText
+            android:id="@+id/user_name_input"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:hint="@string/nombre"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimary"
+            android:textAllCaps="false"
+            android:gravity="center"
+            android:background="@drawable/ripple_effect"
+            android:layout_marginBottom="12dp"/>
+
+        <EditText
+            android:id="@+id/user_last_name_input"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:hint="@string/apellidos"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimary"
+            android:textAllCaps="false"
+            android:gravity="center"
+            android:background="@drawable/ripple_effect"
+            android:layout_marginBottom="12dp"/>
+
+        <Spinner
+            android:id="@+id/user_age_input"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimary"
+            android:textAllCaps="false"
+            android:background="@drawable/ripple_effect"
+            android:layout_marginBottom="12dp"
+            android:textAlignment="center"/>
+
+        <Spinner
+            android:id="@+id/user_sex_input"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimary"
+            android:textAllCaps="false"
+            android:background="@drawable/ripple_effect"
+            android:layout_marginBottom="12dp"
+            android:textAlignment="center"/>
+
+        <Spinner
+            android:id="@+id/user_sport_input"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimary"
+            android:textAllCaps="false"
+            android:background="@drawable/ripple_effect"
+            android:layout_marginBottom="12dp"
+            android:textAlignment="center"/>
+
+        <Spinner
+            android:id="@+id/user_country_input"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimary"
+            android:textAllCaps="false"
+            android:background="@drawable/ripple_effect"
+            android:layout_marginBottom="12dp"
+            android:textAlignment="center"/>
+
+        <Spinner
+            android:id="@+id/user_weight_input"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimary"
+            android:textAllCaps="false"
+            android:background="@drawable/ripple_effect"
+            android:layout_marginBottom="12dp"
+            android:textAlignment="center"/>
+
+        <Spinner
+            android:id="@+id/user_height_input"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimary"
+            android:textAllCaps="false"
+            android:background="@drawable/ripple_effect"
+            android:textAlignment="center"/>
+
+    </LinearLayout>
+
+</LinearLayout>

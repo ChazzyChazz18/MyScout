@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_library"
+        android:title="Libreria" />
+    <item
+        android:id="@+id/nav_record"
+        android:title="Grabar" />
+    <item
+        android:id="@+id/nav_tutorial"
+        android:title="Instructivo" />
+</menu>

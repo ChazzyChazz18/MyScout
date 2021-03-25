@@ -1,0 +1,237 @@
+<resources>
+    <!-- Main Strings -->
+    <string name="app_name">Tu Scout</string>
+    <string name="title_activity_intro">IntroActivity</string>
+    <string name="ready">Listo</string>
+    <string name="access">Acceder</string>
+    <string name="generar_reporte">Generar Reporte</string>
+    <string name="filtro">Filtro V</string>
+    <string name="filtrar_por">Filtrar por</string>
+    <string name="fechas">Fechas</string>
+    <string name="certificados">Certificados</string>
+    <string name="football">Football</string>
+    <string name="baseball">Baseball</string>
+    <string name="basketball">Basketball</string>
+    <string name="artes_marciales_mixtas">Artes Marciales Mixtas</string>
+    <string name="peso">Peso</string>
+    <string name="estatura">Estatura</string>
+    <string name="edad">Edad</string>
+    <string name="pais">Pais</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="intro_slide_text_1">Bienvenidos exploradores, te presentamos&#8230;</string>
+    <string name="intro_slide_text_2">El objetivo es dar a conocer los mejores talentos de las diferentes disciplinas deportivas, y enlazarlos con las diferentes organizaciones deportivas capaces de reclutarlos.</string>
+    <string name="intro_slide_text_3">Los deportistas tendran en esta plataforma la oportunidad de mostrar sus condiciones a todo un universo de organizaciones deportivas.</string>
+    <string name="intro_slide_text_4">Las organizaciones deportivas tendran en Tu Scout una practica y util herramienta para conocer, evaluar y reclutar nuevos talentos.</string>
+    <string name="guardar">Guardar</string>
+    <string name="actualizar">Actualizar</string>
+    <string name="notificaciones">Notificaciones</string>
+    <string name="privacidad">Privacidad</string>
+    <string name="borrar_historial_de_reproducciones">Borrar historial de reproducciones</string>
+    <string name="videos">Videos</string>
+    <string name="calidad_de_carga">Calidad de carga</string>
+    <string name="subir_solo_con_wi_fi">Subir solo con Wi-Fi</string>
+    <string name="informacion_de_facturacion">Informacion de facturacion</string>
+    <string name="valoracion_y_rese_as">Valoracion y reseñas</string>
+    <string name="acerca_de">Acerca De</string>
+    <string name="condiciones_de_servicio_de_tu_scout">Condiciones de servicio de tu scout</string>
+    <string name="version">Version</string>
+    <string name="desloguearse">Desloguearse</string>
+    <string name="terminos_y_pol_de_privacidad">Terminos y pol. de privacidad</string>
+    <string name="configuracion">Configuracion</string>
+    <string name="test_version">1.0</string>
+    <string name="test_quality">Auto</string>
+    <string name="pago">Pago</string>
+    <string name="pais2">pais</string>
+    <string name="codigo_postal">Codigo postal</string>
+    <string name="estado">Estado</string>
+    <string name="ciudad">Ciudad</string>
+    <string name="direccion_de_facturacion">Direccion de facturacion</string>
+    <string name="direccion">Direccion</string>
+    <string name="telefono">Telefono</string>
+    <string name="codigo_de_seguridad">Codigo de seguridad</string>
+    <string name="vence_el">Vence el</string>
+    <string name="numero">Numero</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="nombre">Nombre</string>
+    <string name="propietario_de_la_tarjeta">Propietario de la tarjeta</string>
+    <string name="agrega_video">Agrega Video</string>
+    <string name="proximo">Proximo</string>
+    <string name="tap_2_times_to_exit">Presione atras 2 veces para salir</string>
+    <string name="titulo">Titulo</string>
+    <string name="escribe_una_descripcion">Escribe una descripcion&#8230;</string>
+
+    <string name="tutorial_slide_1">Con este instructivo queremos que tu video sea optimo, si sigues los pasos recomendados tus oportunidades seran mejores.</string>
+
+    <string-array name="category_array">
+        <item>Categoria</item>
+        <item>Football</item>
+        <item>Baseball</item>
+        <item>Basketball</item>
+        <item>Artes Marciales Mixtas</item>
+    </string-array>
+
+    <string-array name="user_age_array">
+        <item>Edad</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+    </string-array>
+
+    <string-array name="user_sex_array">
+        <item>Sexo</item>
+        <item>Hombre</item>
+        <item>Mujer</item>
+    </string-array>
+
+    <string-array name="user_sport_array">
+        <item>Deporte</item>
+        <item>Football</item>
+        <item>Baseball</item>
+        <item>Basketball</item>
+        <item>Artes Marciales Mixtas</item>
+    </string-array>
+
+    <string-array name="user_country_array">
+        <item>Pais</item>
+        <item>Estados Unidos</item>
+        <item>Republica Dominicana</item>
+        <item>Venezuela</item>
+        <item>Cuba</item>
+        <item>Puerto Rico</item>
+        <item>Jamaica</item>
+        <item>Salvador</item>
+        <item>Uruguay</item>
+        <item>Colombia</item>
+        <item>Mexico</item>
+    </string-array>
+
+    <string-array name="user_weight_array">
+        <item>Peso</item>
+        <item>100 lbs</item>
+        <item>101 lbs</item>
+        <item>102 lbs</item>
+        <item>103 lbs</item>
+        <item>104 lbs</item>
+        <item>105 lbs</item>
+        <item>106 lbs</item>
+        <item>107 lbs</item>
+        <item>108 lbs</item>
+        <item>109 lbs</item>
+        <item>110 lbs</item>
+        <item>111 lbs</item>
+        <item>112 lbs</item>
+        <item>113 lbs</item>
+        <item>114 lbs</item>
+        <item>115 lbs</item>
+        <item>116 lbs</item>
+        <item>117 lbs</item>
+        <item>118 lbs</item>
+        <item>119 lbs</item>
+        <item>120 lbs</item>
+        <item>121 lbs</item>
+        <item>122 lbs</item>
+        <item>123 lbs</item>
+        <item>124 lbs</item>
+        <item>125 lbs</item>
+        <item>126 lbs</item>
+        <item>127 lbs</item>
+        <item>128 lbs</item>
+        <item>129 lbs</item>
+        <item>130 lbs</item>
+        <item>131 lbs</item>
+        <item>132 lbs</item>
+        <item>133 lbs</item>
+        <item>134 lbs</item>
+        <item>135 lbs</item>
+        <item>136 lbs</item>
+        <item>137 lbs</item>
+        <item>138 lbs</item>
+        <item>139 lbs</item>
+        <item>140 lbs</item>
+        <item>141 lbs</item>
+        <item>142 lbs</item>
+        <item>143 lbs</item>
+        <item>144 lbs</item>
+        <item>145 lbs</item>
+        <item>146 lbs</item>
+        <item>147 lbs</item>
+        <item>148 lbs</item>
+        <item>149 lbs</item>
+        <item>150 lbs</item>
+    </string-array>
+
+    <string-array name="user_height_array">
+        <item>Altura</item>
+        <item>4\'0</item>
+        <item>4\'1</item>
+        <item>4\'2</item>
+        <item>4\'3</item>
+        <item>4\'4</item>
+        <item>4\'5</item>
+        <item>4\'6</item>
+        <item>4\'7</item>
+        <item>4\'8</item>
+        <item>4\'9</item>
+        <item>4\'10</item>
+        <item>4\'11</item>
+        <item>4\'12</item>
+        <item>5\'0</item>
+        <item>5\'1</item>
+        <item>5\'2</item>
+        <item>5\'3</item>
+        <item>5\'4</item>
+        <item>5\'5</item>
+        <item>5\'6</item>
+        <item>5\'7</item>
+        <item>5\'8</item>
+        <item>5\'9</item>
+        <item>5\'10</item>
+        <item>5\'11</item>
+        <item>5\'12</item>
+        <item>6\'0</item>
+        <item>6\'1</item>
+        <item>6\'2</item>
+        <item>6\'3</item>
+        <item>6\'4</item>
+        <item>6\'5</item>
+        <item>6\'6</item>
+        <item>6\'7</item>
+        <item>6\'8</item>
+        <item>6\'9</item>
+        <item>6\'10</item>
+        <item>6\'11</item>
+        <item>6\'12</item>
+        <item>7\'0</item>
+        <item>7\'1</item>
+        <item>7\'2</item>
+        <item>7\'3</item>
+        <item>7\'4</item>
+        <item>7\'5</item>
+        <item>7\'6</item>
+        <item>7\'7</item>
+        <item>7\'8</item>
+        <item>7\'9</item>
+        <item>7\'10</item>
+        <item>7\'11</item>
+        <item>7\'12</item>
+    </string-array>
+
+</resources>

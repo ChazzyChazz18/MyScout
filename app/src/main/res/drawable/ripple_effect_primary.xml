@@ -1,0 +1,7 @@
+<!-- Here on color we assign the ripple color when touch -->
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:color="@color/colorPrimary"
+    tools:targetApi="lollipop">
+    <!-- Here we assign the default color to the button/view -->
+    <item android:drawable="@color/colorAccent" android:bottom="1dp"/>
+</ripple>

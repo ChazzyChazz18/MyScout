@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@color/colorPrimaryDark">
+
+    <EditText
+        android:id="@+id/add_comment_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="0dp"
+        android:background="@color/colorAccent"
+        android:gravity="start"
+        android:hint="Escribe tu comentario..."
+        android:padding="8dp"
+        android:textColor="@color/colorPrimary" />
+
+    <Button
+        android:id="@+id/summit_comment_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="Agregar comentario"
+        android:textSize="16dp"
+        android:textAllCaps="false"
+        android:textColor="@color/colorAccent"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"/>
+
+</LinearLayout>
